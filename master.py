@@ -32,5 +32,5 @@ try:
 except AttributeError:
     PrezzoProdotto = 'NA'
 
-print("Titolo Prodotto:" + Nomeprodotto)
+print("Titolo Prodotto:" + Nomeprodotto[:45])
 print("Prezzo:" + PrezzoProdotto)
